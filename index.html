@@ -6,9 +6,9 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Furits assinmgent</title>
 
-
-
-
+      <!-- ailwind CSS CDN -->
+      <link href="https://cdn.jsdelivr.net/npm/daisyui@3.7.3/dist/full.css" rel="stylesheet" type="text/css" />
+      <script src="https://cdn.tailwindcss.com"></script>
       <!-- Tailwind css customization  -->
       <script>
             tailwind.config = {
@@ -20,13 +20,111 @@
                         }
                   }
             }
-      </script
+      </script>
 
 </head>
-<h1></h1>
+
 
 <body>
+      <!-- header section start -->
+      <header>
+            <!-- navbar start -->
+            <nav class="max-w-screen-xl mx-auto mt-7 bg-[#F85559] rounded-full  px-14">
+                  <div class="navbar">
+                        <div class="navbar-start">
+                              <div class="dropdown">
+                                    <label tabindex="0" class="btn btn-ghost btn-circle">
+                                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                      d="M4 6h16M4 12h16M4 18h7" />
+                                          </svg>
+                                    </label>
+                                    <ul tabindex="0"
+                                          class="menu sm:menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                                          <li><a>Homepage</a></li>
+                                          <li><a>Portfolio</a></li>
+                                          <li><a>About</a></li>
+                                    </ul>
+                              </div>
+                        </div>
+                        <div class="navbar-center">
+                              <img src="./images/logo.png" alt="">
+                              <a class="btn btn-ghost normal-case text-xl text-white">Fruit Burst</a>
+                        </div>
+                        <div class="navbar-end">
 
+                              <button class="btn btn-ghost btn-circle">
+                                    <div class="form-control">
+                                          <input type="text" placeholder="Search"
+                                                class="input rounded-full input-bordered w-24  md:w-auto" />
+                                          <button class="btn btn-ghost btn-circle">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                                      viewBox="0 0 24 24" stroke="currentColor">
+                                                      <path stroke-linecap="round" stroke-linejoin="round"
+                                                            stroke-width="2"
+                                                            d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                                                </svg>
+                                          </button>
+                                    </div>
+                              </button>
+                        </div>
+                  </div>
+            </nav>
+            <!-- banner section -->
+            <section class="max-w-screen-xl mx-auto py-8">
+                  <div class="carousel w-full   ">
+                        <div id="slide1" class="carousel-item relative w-full  ">
+                              <img src="/images/banner1.png" class="w-full bg-opacity-10" />
+                              <div
+                                    class="absolute flex justify-between items-center transform -translate-y-1/2 left-7 right-7 top-2/4">
+                                    <a href="#slide4" class="btn btn-circle">❮</a>
+                                    <div class="hero-content text-center text-neutral-content">
+                                          <div class="max-w-sm py-20">
+                                                <h1 class="mb-5 text-xl md:text-5xl font-bold">Hello there</h1>
+                                                <p class="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut
+                                                      assumenda excepturi exercitationem
+                                                      quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                                                <button class="btn ">Shop Now</button>
+                                          </div>
+
+                                    </div>
+                                    <a href="#slide2" class="btn btn-circle">❯</a>
+
+                              </div>
+
+                              <div id="slide2" class="carousel-item relative w-full">
+                                    <img src="/images/banner2.png" class="w-full" />
+                                    <div
+                                          class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                          <a href="#slide1" class="btn btn-circle">❮</a>
+                                          <a href="#slide3" class="btn btn-circle">❯</a>
+                                    </div>
+                              </div>
+                              <div id="slide3" class="carousel-item relative w-full">
+                                    <img src="/images/banner3.png" class="w-full" />
+                                    <div
+                                          class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                          <a href="#slide2" class="btn btn-circle">❮</a>
+                                          <a href="#slide4" class="btn btn-circle">❯</a>
+                                    </div>
+                              </div>
+                              <div id="slide4" class="carousel-item relative w-full">
+                                    <img src="/images/banner4.png" class="w-full" />
+                                    <div
+                                          class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                          <a href="#slide3" class="btn btn-circle">❮</a>
+                                          <a href="#slide1" class="btn btn-circle">❯</a>
+                                    </div>
+                              </div>
+                        </div>
+            </section>
+      </header>
+      <!-- main section start -->
+      <main>
+
+      </main>
+      <!-- footer start -->
 </body>
 
 </html>
