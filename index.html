@@ -37,34 +37,26 @@
             <!-- navbar start -->
             <nav class="max-w-screen-xl mx-auto mt-7 bg-[#F85559] rounded-full  px-14">
                   <div class="navbar">
-                        <div class="navbar-start">
-                              <div class="dropdown">
-                                    <label tabindex="0" class="btn btn-ghost btn-circle">
-                                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
-                                                viewBox="0 0 24 24" stroke="currentColor">
-                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                                      d="M4 6h16M4 12h16M4 18h7" />
-                                          </svg>
-                                    </label>
-                                    <ul tabindex="0"
-                                          class="menu sm:menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-                                          <li><a>Homepage</a></li>
-                                          <li><a>Portfolio</a></li>
-                                          <li><a>About</a></li>
-                                    </ul>
+                        <div class="flex flex-1 md:justify-between">
+                              <div class="text-white  sm:visible invisible ">
+                                    <a class="px-4 hover:bg-yellow-500 py-2 rounded-lg" href="">Home</a>
+                                    <a class=" px-4 hover:bg-yellow-500 py-2 rounded-lg" href="">About Us</a>
+                                    <a class="px-4 hover:bg-yellow-500 py-2 rounded-lg" href="">Shop</a>
+                                    <a class=" px-4 hover:bg-yellow-500 py-2 rounded-lg" href="">All Fruits</a>
+                              </div>
+                              <div class=" flex items-center ">
+                                    <img src="./images/logo.png" alt="">
+                                    <a class=" px-4 text-2xl text-white">Fruit Burst</a>
                               </div>
                         </div>
-                        <div class="navbar-center">
-                              <img src="./images/logo.png" alt="">
-                              <a class="btn btn-ghost normal-case text-xl text-white">Fruit Burst</a>
-                        </div>
-                        <div class="navbar-end">
+                        <div class="navbar-end flex-1">
 
-                              <button class="btn btn-ghost btn-circle">
-                                    <div class="form-control">
+                              <button class="btn btn-ghost btn-circle ">
+                                    <div class="form-control sm:visible invisible">
                                           <input type="text" placeholder="Search"
                                                 class="input rounded-full input-bordered w-24  md:w-auto" />
-                                          <button class="btn btn-ghost btn-circle">
+
+                                          <button class="btn btn-ghost btn-circle sm:visible invisible ">
                                                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
                                                       viewBox="0 0 24 24" stroke="currentColor">
                                                       <path stroke-linecap="round" stroke-linejoin="round"
@@ -74,7 +66,27 @@
                                           </button>
                                     </div>
                               </button>
+
+                              <div class="dropdown md:hidden">
+                                    <label tabindex="0" class="btn btn-ghost btn-circle">
+                                          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none"
+                                                viewBox="0 0 24 24" stroke="currentColor">
+                                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                      d="M4 6h16M4 12h16M4 18h7" />
+                                          </svg>
+                                    </label>
+                                    <ul tabindex="0"
+                                          class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                                          <li><a>Home</a></li>
+                                          <li><a>About Us</a></li>
+                                          <li><a>Shop</a></li>
+                                          <li><a>All Fruits</a></li>
+                                    </ul>
+                              </div>
                         </div>
+
+                  </div>
+
                   </div>
             </nav>
             <!-- banner section -->
